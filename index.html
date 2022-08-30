@@ -1,0 +1,57 @@
+<!-- uporabil sem stardandno obliko spletne strani z headerjem, section, navigation in footer. Povezal sem css v html -->
+<html>
+<head>
+	<title>Motorji z notranjim zgorevanjem</title>
+	<link rel="stylesheet" href="stil.css">
+<!-- nekatere stile sem dodal kar v html kodo z uporabi pike in jih potem klical v kodi -->
+<!-- display inline poravna izbirno vrstico horizontalno -->
+	<style>
+		li {
+  display: inline;
+  margin:13px;
+}
+
+.logo {height:80
+	;
+	width:80;}
+	
+.navi {font-size:30;
+	text-decoration:none;
+	color:black;
+	}
+.img {width:500px;}
+
+	</style>
+</head>
+<body>
+<!-- v header sem dodal logo in napisal-->
+	<header>
+	<img class="logo" src="logo.png">
+		MOTORJI Z NOTRANJIM ZGOREVANJEM
+	</header>
+<!-- navigacijo sem uredil v seznam in tega urejal z .navi -->
+	<nav>
+	<ul>
+		<li><a class="navi" href="index.html">DOMOV</a></li>
+		<li><a class="navi" href="zgodovina.html">ZGODOVINA</a> </li>
+		<li><a class="navi" href="sestava.html">SESTAVNI DELI</a> </li>
+	    <li><a class="navi" href="delovanje4.html">4-TAKTNI MOTOR</a> </li>
+		<li><a class="navi" href="delovanje2.html">2-TAKTNI MOTOR</a> </li>
+		<li><a class="navi" href="goriva.html">GORIVA</a> </li>
+		<li><a class="navi" href="VIRI.html">VIRI</a> </li>
+	</ul>
+	</nav>
+<!-- dodal sem tekst in slike. slike sem stil urejal malo z .img in malo kar na mestu, da sem sprobal različne načine. Nekatere slike plavajo v desno, nekatere pa v levo-->
+	<section>
+	
+	Motor z notranjim zgorevanjem je toplotni stroj, ki spreminja notranjo energijo goriva v mehansko delo.
+	Od prvih poskusov iz 19. Stoletja je nastalo veliko različnih verzij za različne namene in z različnim načinom delovanja, a osnovna definicija še vedno velja.
+	V današnjem svetu kljub vse več govora o električnih vozili in strojih še vedno prevladuje. Na tej spletni strain si lahko preberete o zgodovini, različnih tipih motorjev, njihovih sestavnih delih in o pogonskih gorivih. 
+	<img class="img" src="motor.jpg" style="float:right;margin-right:10px; margin-bottom:10px; margin-top:10px; margin-left:10px;	">
+	</section>
+	<footer>
+	Motorji z notranjim zgorevanjem by Maks Rodman is marked with CC0 1.0 
+	</footer>
+	
+</body>
+</hmtl>

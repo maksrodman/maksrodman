@@ -1,0 +1,39 @@
+/* razdelil sem spletno stran na različne dele in potem posameznim delom delal stile.  */
+body{
+	color:black;
+background-color:white;
+}
+/* v Header sem dal naslov in logotip. Z ukazi display flex in align center sem poravnal tekst z logotipm.  */
+header{
+	background-color:#1a53ff;
+	color:white;
+	font-size:60;
+	margin-top:10px;
+	display: flex;
+	align-items: center;
+	}
+/* tukaj sem samo naredil nekaj prostora med tekstom in robom */
+section{
+	margin-bottom:20px;
+	margin-left:20px;
+	
+	margin-right:20px;
+	margin-top:20px;
+	
+}
+/* poravnal licenco v footerju tako da je vedno na dnu in na sredini*/
+footer{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+/* tukaj sem uredil izbirno vrstico oz. seznam malo stran od roba. list type izbriše tiste pike pod besedami*/
+ul {
+  list-style-type:none;
+  margin: 10;
+  padding: 10;
+}
